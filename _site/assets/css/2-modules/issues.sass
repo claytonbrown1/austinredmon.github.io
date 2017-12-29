@@ -1,0 +1,66 @@
+.hero-image.issues-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.3), rgba($secondary-blue, 0.3)), url(/assets/img/wallaceheadshot4.jpg))
+  background-position: 0 40%
+
+  +media($tablet)
+    background-position: 0 30%
+
+  +media($mobile)
+    background-position: 53% 4%
+
+  +media($smlphone)
+    background-position: 53% 10px
+
+.issues-intro
+  font-size: 20px
+  font-weight: 700
+  padding-top: 40px
+  +outer-container(90%)
+
+.issues-container
+  +outer-container(50%)
+  +media($tablet)
+    +outer-container(70%)
+  +media($mobile)
+    +outer-container(90%)
+  +media($smlphone)
+    +outer-container(90%)
+  padding: 40px 0
+
+.issue-block
+  font-size: 1.25em
+  padding: 10px 0
+  border-bottom: 2px solid #ddd
+
+.issue-title
+  font-size: 2.125em
+  padding-bottom: 10px
+  cursor: pointer
+
+  &:hover
+    color: darken($primary-blue, 20%)
+
+  +media($smlphone)
+    font-size: 1.75em
+  i
+    color: $donate-red
+
+  .issue-logo
+    padding-right: 10px
+
+  .dropdown
+    float: right
+    transition: transform .2s linear
+    line-height: inherit
+
+  .rotate
+    transform: rotate(90deg)
+
+.issue-content
+  display: none
+
+.issue-content-subheader
+  font-size: 1.125em
+  font-weight: 700
+  color: $headerColor
+  padding: 20px 0 10px 0

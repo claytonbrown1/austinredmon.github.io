@@ -1,0 +1,169 @@
+.hero-image
+  background-repeat: no-repeat
+  background-size: cover
+  min-height: 30em
+
+  +media($screen)
+    padding: 24em 0 6em 0
+    background-position: top
+
+  +media($tablet)
+    padding: 12em 0 3em 0
+
+  +media($mobile)
+    padding: 18em 0 3em 0
+
+  +media($smlphone)
+    padding: 15em 0 3em 0
+
+.hero-text
+  text-transform: uppercase
+  font-size: 5em
+  font-weight: bold
+  color: white
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.2)
+  +outer-container(90%)
+
+  +media($mobile)
+    font-size: 3em
+
+  +media($smlphone)
+    font-size: 40px
+
+.hero-image.home-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.1), rgba($secondary-blue, 0.1)), url(/assets/img/redmonfence.jpg))
+  background-position: 44% 25%
+
+  +media($screen)
+    padding: 12em 0 6em 0
+    background-position: 0 50%
+
+.content-container
+  +outer-container
+
+  +media($tablet)
+    padding: 8em 10px 0 10px
+
+  +media($mobile)
+    padding: 8em 10px 0 10px
+
+  +media($screen)
+    +outer-container(90%)
+    padding-top: 8em
+
+
+.page-title
+  +media($tablet)
+    padding: 0 10px
+
+#home
+  padding: 40px 0
+  +outer-container(90%)
+
+.home-slogan-card
+  +span-columns(4)
+  text-align: center
+  height: 300px
+  font-size: 2.25em
+  font-weight: 700
+  color: white
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.2)
+  padding-top: 125px
+
+  +media($tablet)
+    padding-top: 50px
+
+  +media($mobile)
+    +span-columns(4)
+    margin-bottom: 20px
+
+  +media($smlphone)
+    +span-columns(4)
+    margin-bottom: 20px
+
+
+.home-slogan-card.community
+  +background-image(linear-gradient(rgba($secondary-blue, 0.4), rgba($secondary-blue, 0.4)), url(/assets/img/wallacecommunity.jpg))
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.home-slogan-card.economic
+  +background-image(linear-gradient(rgba($secondary-blue, 0.4), rgba($secondary-blue, 0.4)), url(/assets/img/wallacecouncil.jpg))
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 50% 0
+.home-slogan-card.education
+  +background-image(linear-gradient(rgba($secondary-blue, 0.4), rgba($secondary-blue, 0.4)), url(/assets/img/wallaceschool.jpg))
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 70% 0
+
+.home-bio
+  +background-image(linear-gradient(rgba($secondary-blue, 0.2), rgba($secondary-blue, 0.2)), url(/assets/img/wallacefamilystadium.jpg))
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 55% 27%
+  min-height: 35em
+
+  +media($screen)
+    background-position: 0 27%
+
+
+  +media($smlphone)
+    background-position: 59% 0
+
+.home-bio-container
+  +outer-container(80%)
+  padding-top: 150px
+  font-weight: 700
+
+  +media($smlphone)
+    padding-top: 50px
+
+  h2, h3
+    color: white
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.2)
+
+
+  h2
+    font-size: 4em
+    margin: 0
+
+  h3
+    font-size: 2em
+    margin-top: 20px
+
+  a
+    background-color: $primary-blue
+    color: white
+    padding: 5px 10px
+    font-size: 1.75em
+
+    &:hover
+      background-color: darken($primary-blue, 10%)
+
+.letter-photo
+  +span-columns(7)
+
+.letter
+  +span-columns(5)
+  font-size: 1.25em
+
+  .donate
+    font-size: 1.25em
+    font-weight: 700
+    text-transform: uppercase
+    padding: 5px 20px
+
+    &:hover
+      background-color: lighten($primary-blue, 50%)
+
++media($tablet)
+  .letter-photo, .letter
+    +span-columns(4)
++media($mobile)
+  .letter-photo, .letter
+    +span-columns(4)
++media($smlphone)
+  .letter-photo, .letter
+    +span-columns(4)

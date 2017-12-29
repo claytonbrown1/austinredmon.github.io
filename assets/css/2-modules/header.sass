@@ -1,0 +1,176 @@
+$logoWidth: 275px
+$smallLogoWidth: 150px
+$navbarPadding: (0.5*$logoWidth)
+$headerColor: #1D2738
+
+header
+  position: fixed
+  padding-top: 10px
+  width: 100%
+  z-index: 999999
+  transition: background-color .25s
+
+  +media($screen)
+    padding: 10px 0
+
+  +media($tablet)
+    background-color: $headerColor
+  +media($mobile)
+    background-color: $headerColor
+  +media($smlphone)
+    background-color: $headerColor
+
+.sticky
+  background-color: $headerColor
+
+  .logo
+    img
+      width: $smallLogoWidth
+
+.header-container
+  +outer-container(90%)
+
+.logo
+  .logoimg
+    display: block
+    float: left
+    width: $smallLogoWidth
+    transition: width .25s
+    -webkit-filter: drop-shadow(2px 3px 3px #222)
+    filter: drop-shadow(2px 3px 3px #222)
+
+    +media($screen)
+      width: $logoWidth
+
+  +media($mobile)
+    padding: 10px 0
+
+  +media($smlphone)
+    padding: 10px 0
+
+#mobile-menu-button
+  display: block
+  float: right
+  margin-top: $navbarPadding/4
+
+  +media($screen)
+    display: none
+
+#navbar
+  float: none
+  margin-top: 0
+
+  +media($screen)
+    float: right
+    margin-top: $navbarPadding / 2
+
+  +media($tablet)
+    position: relative
+    padding-bottom: 10px
+    clear: both
+
+  +media($mobile)
+    position: relative
+    padding-bottom: 10px
+    clear: both
+
+  +media($smlphone)
+    position: relative
+    padding-bottom: 10px
+    clear: both
+
+ul.nav-menu
+  list-style: none
+  position: absolute
+  float: left
+  margin: 0
+  padding: 0
+
+  +media($screen)
+    position: relative
+
+  +media($tablet)
+    right: 0
+    top: 10px
+    width: 100%
+    display: none
+    background-color: white
+
+  +media($mobile)
+    right: 0
+    top: 10px
+    width: 100%
+    display: none
+    background-color: white
+
+  +media($smlphone)
+    right: 0
+    top: 10px
+    width: 100%
+    display: none
+    background-color: white
+
+  &.show
+    display: block
+
+  a
+    color: $secondary-blue
+    display: block
+    text-decoration: none
+    font-weight: 700
+    line-height: 32px
+    padding: 0 15px
+    font-size: 1.5em
+    text-transform: uppercase
+    transition: font-size .25s, padding .25s
+
+    +media($screen)
+      font-size: 1em
+      color: white
+
+      &:hover
+        color: $primary-blue
+
+    +media($smlscreen)
+      font-size: 1.25em
+      padding: 0 5px
+
+ul li.nav-link
+  position: relative
+  display: inline-block
+  margin: 0
+  padding: 0
+
+  +media($tablet)
+    display: block
+    text-align: right
+
+    ul
+      position: static
+
+  +media($mobile)
+    display: block
+    text-align: right
+
+    ul
+      position: static
+
+  +media($smlphone)
+    display: block
+    text-align: right
+
+    ul
+      position: static
+
+.donate
+  text-align: center
+  color: white
+
+  +media($screen)
+    color: white
+    background-color: $primary-blue
+    transition: background-color .25s, color .25s
+
+    &:hover
+      background-color: white
+      color: $primary-blue

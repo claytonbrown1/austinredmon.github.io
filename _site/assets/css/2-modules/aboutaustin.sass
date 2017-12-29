@@ -1,0 +1,65 @@
+.hero-image.bio-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.3), rgba($secondary-blue, 0.3)), url(/assets/img/WallaceFamily.jpg))
+  background-position: 0 30%
+
+  +media($tablet)
+    background-position: 0 20px
+
+  +media($mobile)
+    background-position: 40% 70px
+
+  +media($smlphone)
+    background-position: 45% 50px
+
+#bio-text
+  +outer-container(90%)
+  +media($screen)
+    +outer-container(60%)
+    padding-top: 40px
+    padding-bottom: 20px
+    font-size: 1.3em
+
+  p
+    +media($screen)
+      text-align: justify
+
+
+#bio-img-1
+  float: right
+  max-width: 300px
+  margin-left: 10px
+
+  +media($mobile)
+    float: none
+    width: 100%
+    margin-left: 0px
+
+
+  +media($smlphone)
+    float: none
+    width: 100%
+    margin-left: 0px
+
+
+#bio-img-2
+  float: left
+  max-width: 300px
+  margin-right: 10px
+
+  +media($mobile)
+    float: none
+    width: 100%
+    margin-right: 0px
+
+
+  +media($smlphone)
+    float: none
+    width: 100%
+    margin-right: 0px
+
+.military
+  padding-top: 40px
+  font-size: 1em
+
+  +media($screen)
+    font-size: .65em

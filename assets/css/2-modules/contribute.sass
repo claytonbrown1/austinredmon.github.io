@@ -1,0 +1,147 @@
+.hero-image.contribute-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.3), rgba($secondary-blue, 0.3)), url(/assets/img/handshake.jpg))
+  background-position: 0 30%
+
+  +media($tablet)
+    background-position: 0 20px
+
+  +media($mobile)
+    background-position: 40% 70px
+
+  +media($smlphone)
+    background-position: 45% 50px
+
+.contribute-container, .contribute-rules
+  +outer-container(90%)
+  padding-top: 20px
+
+.contribute-about
+  +span-columns(4)
+  font-size: 1.25em
+
+  +media($tablet)
+    +span-columns(8)
+  +media($mobile)
+    +span-columns(4)
+  +media($smlphone)
+    +span-columns(4)
+
+.contribute-area
+  +span-columns(8)
+
+  +media($tablet)
+    +span-columns(8)
+  +media($mobile)
+    +span-columns(4)
+  +media($smlphone)
+    +span-columns(4)
+
+//AMOUNT INFO
+
+#amount-error
+  color: $donate-red
+
+ul
+  padding: 0
+  margin: 0
+
+.amount
+  +span-columns(2 of 8)
+  +omega(4n)
+
+  +media($tablet)
+    +span-columns(4 of 8)
+    +omega(2n)
+  +media($mobile)
+    +span-columns(2 of 4)
+    +omega(2n)
+  +media($smlphone)
+    +span-columns(2 of 4)
+    +omega(2n)
+
+.amount_custom
+  color: #333
+
+.contribute-button
+  display: block
+  background-color: $secondary-blue
+  color: white
+  cursor: pointer
+  padding: 5px 10px
+  margin-bottom: 20px
+  text-align: center
+  font-size: 1.5em
+  font-weight: 700
+  width: 100%
+
+  &:hover
+    background-color: lighten($secondary-blue, 10%)
+
+  input[type=radio]
+    display: none
+
+.contribute-button.selected
+  background-color: green
+
+.btn
+  display: block
+  margin: 0 auto
+  background-color: #27ae60
+  border: none
+  font-size: 1.5em
+  font-weight: 700
+  color: white
+  padding: 5px 10px
+
+//CONTACT INFO
+.account-info
+  display: none
+
+
+.account-error
+  background-color: #ffbcbc
+  border-color: $donate-red
+
+.account-info>input::placeholder
+  font-size: 1.25em
+
+.account-info>input
+  height: 35px
+  margin-bottom: 20px
+
+.account-info>.employerfield>input
+  height: 35px
+  margin: 10px 0
+
+.account-info>.employerfield>input::placeholder
+  font-size: 1.25em
+
+.account-info>select
+  height: 35px
+  font-size: 1.25em
+
+.account-name
+  width: 49%
+
+.account-addr
+  width: 100%
+
+.account-city
+  width: 49%
+
+.account-state, .account-zip
+  width: 24.5%
+
+.account-phone, .account-email
+  width: 49%
+
+.account-employed
+  display: block
+  width: 100%
+
+.account-occupation, .account-employer
+  width: 49%
+
+//CARD INFO
+.card-info
+  display: none

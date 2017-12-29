@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>News</title>
+	<meta name="description" content="News">
+	<meta name="viewport" content="width=device-width">
+	<!---
+	                    _   _         _____          _
+	     /\            | | (_)       |  __ \        | |
+	    /  \  _   _ ___| |_ _ _ __   | |__) |___  __| |_ __ ___   ___  _ __
+	   / /\ \| | | / __| __| | '_ \  |  _  // _ \/ _` | '_ ` _ \ / _ \| '_ \
+	  / ____ \ |_| \__ \ |_| | | | | | | \ \  __/ (_| | | | | | | (_) | | | |
+	 /_/_   \_\__,_|___/\__|_|_| |_| |_|  \_\___|\__,_|_| |_| |_|\___/|_| |_|
+	  / _|
+	 | |_ ___  _ __
+	 |  _/ _ \| '__|
+	 | || (_) | |
+	 |_|_\___/|_|             _ _      _____                 _      _____ _           _
+	  / ____(_)              (_) |    / ____|               | |    / ____| |         | |
+	 | |     _ _ __ ___ _   _ _| |_  | |     ___  _   _ _ __| |_  | |    | | ___ _ __| | __
+	 | |    | | '__/ __| | | | | __| | |    / _ \| | | | '__| __| | |    | |/ _ \ '__| |/ /
+	 | |____| | | | (__| |_| | | |_  | |___| (_) | |_| | |  | |_  | |____| |  __/ |  |   <
+	  \_____|_|_|  \___|\__,_|_|\__|  \_____\___/ \__,_|_|   \__|  \_____|_|\___|_|  |_|\_\
+-->
+<!-- Twitter Card Data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Austin Redmon for Circuit Court Clerk">
+	<meta name="twitter:description" content="News">
+	<meta name="twitter:image" content="http://www.austinredmon.com/assets/img/WallaceHeadshot.jpg">
+
+<!-- Open Graph Data-->
+	<meta name="og:title" content="Austin Redmon for Circuit Court Clerk">
+	<meta name="og:url" content="http://www.wallaceforlexington.com">
+	<meta name="og:description" content="News">
+	<meta name="og:site_name" content="Austin Redmon for Circuit Court Clerk">
+	<meta name="og:type" content="website">
+	<meta name="og:image" content="http://www.wallaceforlexington.com/assets/img/WallaceHeadshot.jpg">
+
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<script src="https://use.fontawesome.com/b74de8d90f.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.min.js"></script>
+    <script src="/assets/js/respond.min.js"></script>
+  <![endif]-->
+
+	<script type="text/javascript" src="/assets/js/jquery-1.11.3.js"></script>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<header role="banner">
+	<div class="header-container">
+		<div class="logo">
+			<a href="/index.html">
+				<img src="/assets/img/redmonlogotransparent.png" alt="logo" class="logoimg">
+			</a>
+	    <a href="#" id="mobile-menu-button"><i class='fa fa-2x fa-bars'></i></a>
+		</div>
+		<nav id="navbar">
+			<ul id="nav-menu" class="nav-menu show">
+				<li class="nav-link"><a href="/volunteer.html">volunteer</a></li>
+				<li class="nav-link"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=77ULTQHDW9SUW" class="donate" target="_blank">contribute</a></li>
+			</ul>
+		</nav>
+	</div>
+		<script type="text/javascript" src="/assets/js/navbarToggle.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if(window.innerWidth > 1067){
+						if ($(this).scrollTop() >= 98){
+							$('header').addClass('sticky');
+							$('#navbar').css("margin-top", "18.75px")
+						}
+						else {
+							$('header').removeClass('sticky');
+							$('#navbar').css("margin-top", "37.5px")
+						}
+					}
+				});
+			});
+		</script>
+</header>
+
+	<div class="body">
+	<div class="content-container">
+  <div class="page-title"><h1>News</h1></div>
+  <ul class="news-posts">
+  
+  </ul>
+</div>
+
+	</div>
+<footer>
+	<div class="container">
+		<div class="footer-links">
+			<ul>
+				<li><a href="/volunteer.html">Volunteer</a></li>
+				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5D8URU5GA8KDU" target="_blank">Contribute</a></li>
+			</ul>
+		</div>
+		<div class="footer-contacts">
+			P.O. Box 2, Bagdad, KY 40003
+		</div>
+		<div id="paidfor">Paid for by Austin Redmon for Circuit Court Clerk</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
