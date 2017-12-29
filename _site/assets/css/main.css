@@ -502,7 +502,7 @@ header {
 #mobile-menu-button {
   display: block;
   float: right;
-  margin-top: 34.375px; }
+  margin-top: 17.1875px; }
   @media screen and (min-width: 1068px) {
     #mobile-menu-button {
       display: none; } }
@@ -609,7 +609,6 @@ ul li.nav-link {
         position: static; } }
 
 .donate {
-  text-align: center;
   color: white; }
   @media screen and (min-width: 1068px) {
     .donate {
@@ -681,13 +680,13 @@ ul li.nav-link {
 .hero-image.volunteer-image {
   background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.3), rgba(38, 93, 184, 0.3)), url(/assets/img/redmonfamilywhite.jpg);
   background-image: linear-gradient(rgba(38, 93, 184, 0.3), rgba(38, 93, 184, 0.3)), url(/assets/img/redmonfamilywhite.jpg);
-  background-position: 0 63%; }
+  background-position: 0 30%; }
   @media screen and (min-width: 321px) and (max-width: 600px) {
     .hero-image.volunteer-image {
-      background-position: 40% 45px; } }
+      background-position: 15% 45px; } }
   @media screen and (max-width: 320px) {
     .hero-image.volunteer-image {
-      background-position: 40% 55px; } }
+      background-position: 15% 55px; } }
 
 .volunteer-container {
   max-width: 90%;
@@ -1490,7 +1489,7 @@ ul {
       background-position: top; } }
   @media screen and (min-width: 601px) and (max-width: 1067px) {
     .hero-image {
-      padding: 12em 0 3em 0; } }
+      padding: 20em 0 4em 0; } }
   @media screen and (min-width: 321px) and (max-width: 600px) {
     .hero-image {
       padding: 18em 0 3em 0; } }
