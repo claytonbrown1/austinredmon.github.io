@@ -513,7 +513,7 @@ header {
   @media screen and (min-width: 1068px) {
     #navbar {
       float: right;
-      margin-top: 68.75px; } }
+      margin-top: 37.5px; } }
   @media screen and (min-width: 601px) and (max-width: 1067px) {
     #navbar {
       position: relative;
