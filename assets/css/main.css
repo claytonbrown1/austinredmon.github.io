@@ -1518,8 +1518,8 @@ ul {
       font-size: 40px; } }
 
 .hero-image.home-image {
-  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfence.jpg);
-  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfence.jpg);
+  background-image: url(/assets/img/redmonfence.jpg);
+  background-image: url(/assets/img/redmonfence.jpg);
   background-position: 44% 25%; }
   @media screen and (min-width: 1068px) {
     .hero-image.home-image {
