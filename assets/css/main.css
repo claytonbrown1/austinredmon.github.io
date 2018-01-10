@@ -1060,6 +1060,8 @@ footer {
       border-right: 1px solid white; } }
 
 .hero-image.bio-image {
+  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
+  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
   background-position: 0 30%; }
   @media screen and (min-width: 601px) and (max-width: 1067px) {
     .hero-image.bio-image {
