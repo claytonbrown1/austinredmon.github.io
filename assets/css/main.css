@@ -1135,7 +1135,9 @@ footer {
       font-size: .65em; } }
 
 .hero-image.issues-image {
-  background-position: 0 40%; }
+  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonpollett.jpg);
+  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonpollett.jpg);
+  background-position: 0 0%; }
   @media screen and (min-width: 601px) and (max-width: 1067px) {
     .hero-image.issues-image {
       background-position: 0 30%; } }
