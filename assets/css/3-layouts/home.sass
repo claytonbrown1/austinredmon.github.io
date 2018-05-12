@@ -125,10 +125,13 @@
       background-color: darken($primary-blue, 10%)
 
 .letter-photo
-  +span-columns(7)
+  +span-columns(4)
+
+.fb-page
+  +span-columns(4)
 
 .letter
-  +span-columns(5)
+  +span-columns(4)
   font-size: 1.25em
 
   .donate
@@ -141,11 +144,11 @@
       background-color: lighten($primary-blue, 50%)
 
 +media($tablet)
-  .letter-photo, .letter
+  .letter-photo, .letter, .fb-page
     +span-columns(4)
 +media($mobile)
-  .letter-photo, .letter
+  .letter-photo, .letter, .fb-page
     +span-columns(4)
 +media($smlphone)
-  .letter-photo, .letter
+  .letter-photo, .letter, .fb-page
     +span-columns(4)

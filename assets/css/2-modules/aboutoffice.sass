@@ -1,0 +1,25 @@
+.hero-image.office-image
+  +background-image(linear-gradient(rgba($secondary-blue, 0.2), rgba($secondary-blue, 0.2)), url(/assets/img/courthouse.jpg))
+  background-position: 0 30%
+  padding: 18em 0 6em 0
+
+  +media($tablet)
+    background-position: 0 30%
+
+  +media($mobile)
+    background-position: 53% 4%
+
+  +media($smlphone)
+    background-position: 53% 10px
+
+#office-text
+  +outer-container(90%)
+  +media($screen)
+    +outer-container(60%)
+    padding-top: 40px
+    padding-bottom: 20px
+    font-size: 1.3em
+
+  p
+    +media($screen)
+      text-align: justify

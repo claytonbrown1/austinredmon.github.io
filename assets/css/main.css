@@ -678,9 +678,10 @@ ul li.nav-link {
       width: 75%; } }
 
 .hero-image.volunteer-image {
-  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
-  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
-  background-position: 0 30%; }
+  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.2), rgba(38, 93, 184, 0.2)), url(/assets/img/bagdadfundraiser.jpg);
+  background-image: linear-gradient(rgba(38, 93, 184, 0.2), rgba(38, 93, 184, 0.2)), url(/assets/img/bagdadfundraiser.jpg);
+  background-position: 0 30%;
+  padding: 18em 0 6em 0; }
   @media screen and (min-width: 321px) and (max-width: 600px) {
     .hero-image.volunteer-image {
       background-position: 15% 45px; } }
@@ -1060,8 +1061,8 @@ footer {
       border-right: 1px solid white; } }
 
 .hero-image.bio-image {
-  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
-  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamilywhite.jpg);
+  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamily.jpg);
+  background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonfamily.jpg);
   background-position: 0 30%; }
   @media screen and (min-width: 601px) and (max-width: 1067px) {
     .hero-image.bio-image {
@@ -1134,6 +1135,45 @@ footer {
     .military {
       font-size: .65em; } }
 
+.hero-image.office-image {
+  background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.2), rgba(38, 93, 184, 0.2)), url(/assets/img/courthouse.jpg);
+  background-image: linear-gradient(rgba(38, 93, 184, 0.2), rgba(38, 93, 184, 0.2)), url(/assets/img/courthouse.jpg);
+  background-position: 0 30%;
+  padding: 18em 0 6em 0; }
+  @media screen and (min-width: 601px) and (max-width: 1067px) {
+    .hero-image.office-image {
+      background-position: 0 30%; } }
+  @media screen and (min-width: 321px) and (max-width: 600px) {
+    .hero-image.office-image {
+      background-position: 53% 4%; } }
+  @media screen and (max-width: 320px) {
+    .hero-image.office-image {
+      background-position: 53% 10px; } }
+
+#office-text {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  #office-text::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 1068px) {
+    #office-text {
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      font-size: 1.3em; }
+      #office-text::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  @media screen and (min-width: 1068px) {
+    #office-text p {
+      text-align: justify; } }
+
 .hero-image.issues-image {
   background-image: -webkit-linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonpollett.jpg);
   background-image: linear-gradient(rgba(38, 93, 184, 0.1), rgba(38, 93, 184, 0.1)), url(/assets/img/redmonpollett.jpg);
@@ -1143,7 +1183,7 @@ footer {
       background-position: 0 30%; } }
   @media screen and (min-width: 321px) and (max-width: 600px) {
     .hero-image.issues-image {
-      background-position: 53% 4%; } }
+      background-position: 53% 80px; } }
   @media screen and (max-width: 320px) {
     .hero-image.issues-image {
       background-position: 53% 10px; } }
@@ -1643,15 +1683,23 @@ ul {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%; }
+  width: 31.76157%; }
   .letter-photo:last-child {
+    margin-right: 0; }
+
+.fb-page {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .fb-page:last-child {
     margin-right: 0; }
 
 .letter {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 40.29137%;
+  width: 31.76157%;
   font-size: 1.25em; }
   .letter:last-child {
     margin-right: 0; }
@@ -1664,30 +1712,30 @@ ul {
       background-color: #d6e3f8; }
 
 @media screen and (min-width: 601px) and (max-width: 1067px) {
-  .letter-photo, .letter {
+  .letter-photo, .letter, .fb-page {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 48.21067%; }
-    .letter-photo:last-child, .letter:last-child {
+    .letter-photo:last-child, .letter:last-child, .fb-page:last-child {
       margin-right: 0; } }
 
 @media screen and (min-width: 321px) and (max-width: 600px) {
-  .letter-photo, .letter {
+  .letter-photo, .letter, .fb-page {
     float: left;
     display: block;
     margin-right: 7.42297%;
     width: 100%; }
-    .letter-photo:last-child, .letter:last-child {
+    .letter-photo:last-child, .letter:last-child, .fb-page:last-child {
       margin-right: 0; } }
 
 @media screen and (max-width: 320px) {
-  .letter-photo, .letter {
+  .letter-photo, .letter, .fb-page {
     float: left;
     display: block;
     margin-right: 7.42297%;
     width: 100%; }
-    .letter-photo:last-child, .letter:last-child {
+    .letter-photo:last-child, .letter:last-child, .fb-page:last-child {
       margin-right: 0; } }
 
 .post-container {
