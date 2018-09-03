@@ -1703,6 +1703,8 @@ ul {
   font-size: 1.25em; }
   .letter:last-child {
     margin-right: 0; }
+  .letter #signature {
+    width: 60%; }
   .letter .donate {
     font-size: 1.25em;
     font-weight: 700;
